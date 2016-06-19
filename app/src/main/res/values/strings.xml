@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="url_to_icon">Url to icon</string>
+    <string name="end_time">End time</string>
+
+    <string name="hint_title">Write your task title…</string>
+    <string name="hint_description">Write description to your task…</string>
+    <string name="hint_url_to_icon">Write url to task icon…</string>
+    <string name="add_new_task">Add new task</string>
+    <string name="edit_task">Edit task</string>
+    <string name="created">Created</string>
+    <string name="end_time_tap_to_change">End time (tap to change)</string>
+    <string name="field_cannot_be_empty">cannot be empty</string>
+</resources>

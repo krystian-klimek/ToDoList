@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.krystianklimek.todolist.activities.MainActivity">
+
+    <ListView
+        android:id="@+id/toDolistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="@dimen/add_button_shape_size"
+        android:layout_height="@dimen/add_button_shape_size"
+        android:layout_margin="@dimen/add_button_margin"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="+"
+        android:textSize="@dimen/add_button_text_size"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_round_states"
+        />
+
+</RelativeLayout>

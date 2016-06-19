@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/text_input_margin_bottom</item>
+        <item name="android:textSize">@dimen/add_edittext_text_size</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/text_input_margin_side</item>
+        <item name="android:layout_marginLeft">@dimen/text_input_margin_side</item>
+        <item name="android:textSize">@dimen/add_textview_text_size</item>
+    </style>
+
+    <style name="DateTextViewStyle" parent="TextViewStyle">
+        <item name="android:layout_marginBottom">@dimen/text_input_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/text_input_margin_top</item>
+        <item name="android:textSize">@dimen/add_edittext_text_size</item>
+    </style>
+</resources>

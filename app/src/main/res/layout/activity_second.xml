@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/text_input_margin_bottom">
+
+        <TextView
+            android:text="@string/title"
+            style="@style/TextViewStyle"/>
+
+        <EditText
+            android:id="@+id/titleEditText"
+            android:hint="@string/hint_title"
+            android:tag="@string/title"
+            android:inputType="textCapSentences"
+            android:singleLine="true"
+            style="@style/EditTextStyle"/>
+
+        <TextView
+            android:text="@string/description"
+            style="@style/TextViewStyle"/>
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:hint="@string/hint_description"
+            android:tag="@string/description"
+            android:inputType="textCapSentences"
+            style="@style/EditTextStyle"/>
+
+        <TextView
+            android:text="@string/url_to_icon"
+            style="@style/TextViewStyle"/>
+
+        <EditText
+            android:id="@+id/urlToIconEditText"
+            android:hint="@string/hint_url_to_icon"
+            android:tag="@string/url_to_icon"
+            android:inputType="textUri"
+            style="@style/EditTextStyle" />
+
+        <TextView
+            android:text="@string/end_time_tap_to_change"
+            style="@style/TextViewStyle"/>
+
+        <TextView
+            android:id="@+id/endTimeTextView"
+            android:text="@string/end_time"
+            style="@style/DateTextViewStyle"/>
+
+        <TextView
+            android:text="@string/created"
+            style="@style/TextViewStyle"/>
+
+        <TextView
+            android:id="@+id/createdTextView"
+            android:text="@string/created"
+            android:enabled="false"
+            style="@style/DateTextViewStyle"/>
+
+        <Button
+            android:id="@+id/actionTaskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/button_padding"
+            android:text="@string/add_new_task"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_states"/>
+    </LinearLayout>
+</ScrollView>
